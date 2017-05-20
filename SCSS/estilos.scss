@@ -1,0 +1,341 @@
+@import "_variables.scss";
+
+/*=====================================/
+    Aspectos Generales
+/=====================================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    height: 100%;
+    
+    body {
+        background-color: #EEF5F8;
+        font-size: 10px;
+        height: 100%;
+        font-family: "Quattrocento Sans", sans-serif;
+        
+        p {
+            font-size: 1.4em;
+            color: $gris-letras;
+            margin-bottom: 1em;
+            
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        
+        .bold {
+            font-weight: 700;
+        }
+    }
+}
+
+
+/*=====================================/
+    Cabecera
+/=====================================*/
+
+#cont-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    #fecha {
+        padding: 30px 60px 20px 0;
+        color: lighten($gris-letras, 10%);
+    }
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px 60px 20px;
+    
+    li {
+        list-style: none;
+        font-size: 1.4em;
+        margin-left: 60px;
+        
+        a {
+            color: $gris-letras;
+            text-decoration: none;
+            
+            &:hover {
+                color:$azul-fondo;
+                text-shadow: 0 1px 3px #eee;
+            }
+        }
+    }
+}
+
+.banner {
+    width: 100%;
+//    height: 300px;
+    background-image: url(../img/cara-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    border-bottom: 30px solid $azul-footer;
+    
+    .titulo-cabecera {
+        text-align: center;
+        margin-right: 120px;
+        
+        h1 {
+            font-size: 3em;
+        }
+        
+        p {
+            color: #fff;
+        }
+    }
+    
+    .bienvenido {
+        width: 35%;
+        
+        p {
+            font-size: 2em;
+            color: #fff;
+            text-align: center;
+            line-height: 1.8;
+        }
+    }
+    
+    .contenedor {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+        .logo {
+            width: 16.66%;
+            position: relative;
+            top: 30px;
+            
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+
+/*=====================================/
+    Contenido
+/=====================================*/
+
+.wrapper {
+    margin: auto;
+	width: 83.33333333%;
+	max-width: 1200px;
+}
+
+.seccion {
+    padding: 15px 0;
+}
+
+.seccion-seguros {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.caja-seguros {
+    width: 190px;
+    background-color: #fff;
+    padding: 148px 30px 30px;
+    box-shadow: 0 0 3px 3px #ccc;
+    position: relative;
+    transition: all 0.5s ease;
+    margin: 15px 0;
+    
+    &:hover {
+        transform: scale(1.1);
+        box-shadow: 0 0 5px 5px #aaa;
+    }
+    
+    h2 {
+        font-size: 1.8em;
+        color: #fff;
+        background-color: rgba(0,91,129,0.85);
+        padding: 10px 0 10px 15px;
+        width: 100%;
+        position: absolute;
+        left: -15px;
+        top: 85px;
+    }
+    
+    .bisel-titulo {
+        position: absolute;
+        left: -15px;
+        top: 125px;
+    }
+    
+    li {
+        font-size: 1.4em;
+        
+        a {
+            color: $gris-letras;
+            text-decoration: none;
+            
+            &:hover {
+                color: $azul-fondo;
+                text-shadow: 0 1px 3px #eee;
+                
+            }
+        }
+    }
+}
+
+.seguro-salud {
+    background-image: url(../img/seguro-salud.jpg);
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.seguro-vida {
+    background-image: url(../img/seguro-vida.jpg);
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.seguro-patrimonio {
+    background-image: url(../img/seguro-patrimonio.jpg);
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.nosotros {
+    background-image: url(../img/seguro-patrimonio.jpg);
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.contacto {
+    background-image: url(../img/seguro-patrimonio.jpg);
+    background-size: 100%;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+#informativo {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    
+    .titulo-informativo {
+        text-align: center;
+        background-color: $azul-footer;
+        color: #fff;
+        font-size: 3em;
+    }
+    
+    .caja-informativo, .titulo-informativo {
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: space-between;
+        
+        .titulo-informativos {
+            font-size: 1.8em;
+            margin-bottom: 0.7em;
+            color: $azul-footer;
+        }
+        
+        p {
+            text-align: justify;
+        }
+    }
+    
+    #info1 {
+        background-color: lighten(#EDF6EA, 0%);
+    }
+    
+     #info2 {
+        background-color: lighten(#B9D2C0, 5%);
+    }
+    
+    #info3 {
+        background-color: #E1EEEE;
+    }
+    
+     #info4 {
+        background-color: lighten($azul-fondo, 20%);
+    }
+    
+    .btn-leer {
+        background-color: $azul-footer;
+        font-size: 1.4em;
+        border-radius: 5px;
+        margin: 0 auto;
+        
+        a {
+            color: #ddd;
+            text-decoration: none;
+            display: block;
+            padding: 10px 20px;
+            width: 100%;
+            height: 100%;
+            
+            &:hover {
+                background-color: lighten($azul-footer, 5%);
+                border-radius: 5px;
+            }
+        }
+    }
+    
+    .video-informativo {
+        width: 100%;
+        margin-top: 15px;
+    }
+}
+
+footer {
+    width: 100%;
+    background-color: $azul-footer;
+    padding: 30px 0 60px;
+
+    .wrapper {
+        display: flex;
+        align-items: flex-end;
+        
+        p {
+            color: #bbb;
+            line-height: 0.7em;
+        }
+
+        .icon {
+            color: #bbb;
+            font-size: 1.5em;
+            margin-right: 7px;
+            position: relative;
+            top: 5px;
+        }
+        
+        .barra {
+            margin: 0 8px;
+        }
+        
+        #izquierda,
+        #derecha {
+            width: 50%;
+        }
+        
+        #derecha {
+            text-align: right;
+        }
+    }
+}
+
+
+@import "_responsive.scss";

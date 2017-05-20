@@ -1,0 +1,695 @@
+/*===================================
+=            Grid System            =
+===================================*/
+
+.contenedor {
+	position: relative;
+	margin: auto;
+	width: 83.33333333%;
+	max-width: 1200px;
+	height: auto;
+	clear: both;
+    overflow: hidden;
+}
+
+.fila {
+	position: relative;
+	margin: auto;
+	width: 100%;
+	height: auto;
+	clear: both;
+}
+
+@media screen and (max-width: 1200px) {
+	
+	.contenedor {
+		width: 90%;
+	}
+
+	.fila {
+		width: 95%;
+	}
+}
+
+/*----------  Phone  ----------*/
+
+.ph-12c, .ph-11c, .ph-10c, .ph-9c, .ph-8c,
+.ph-7c, .ph-6c, .ph-5c, .ph-4c, .ph-3c, 
+.ph-2c, .ph-1c,
+.ph-5, .ph-10, .ph-15, .ph-20, .ph-25, .ph-30,
+.ph-35, .ph-40, .ph-45, .ph-50, .ph-55, .ph-60,
+.ph-65, .ph-70, .ph-75, .ph-80, .ph-85, .ph-90,
+.ph-95, .ph-100,
+.ph-1-3, .ph-2-3, .ph-1-6, .ph-2-6 {
+	position: relative;
+	float: left;
+	height: auto;
+}
+
+.ph-12c {
+	width: 100%;
+}
+
+.ph-11c {
+	width: 91.66666667%;
+}
+
+.ph-10c {
+	width: 83.33333333%;
+}
+
+.ph-9c {
+	width: 75%;
+}
+
+.ph-8c {
+	width: 66.66666667%;
+}
+
+.ph-7c {
+	width: 58.33333333%;
+}
+
+.ph-6c {
+	width: 50%;
+}
+
+.ph-5c {
+	width: 41.66666667%;
+}
+
+.ph-4c {
+	width: 33.33333333%;
+}
+
+.ph-3c {
+	width: 25%;
+}
+
+.ph-2c {
+	width: 16.66666667%;
+}
+
+.ph-1c {
+	width: 8.33333333%;
+}
+
+.ph-5 {
+	width: 5%;
+}
+
+.ph-10 {
+	width: 10%;
+}
+
+.ph-15 {
+	width: 15%;
+}
+
+.ph-20 {
+	width: 20%;
+}
+
+.ph-25 {
+	width: 25%;
+}
+
+.ph-30 {
+	width: 30%;
+}
+
+.ph-35 {
+	width: 35%;
+}
+
+.ph-40 {
+	width: 40%;
+}
+
+.ph-45 {
+	width: 45%;
+}
+
+.ph-50 {
+	width: 50%;
+}
+
+.ph-55 {
+	width: 55%;
+}
+
+.ph-60 {
+	width: 60%;
+}
+
+.ph-65 {
+	width: 65%;
+}
+
+.ph-70 {
+	width: 70%;
+}
+
+.ph-75 {
+	width: 75%;
+}
+
+.ph-80 {
+	width: 80%;
+}
+
+.ph-85 {
+	width: 85%;
+}
+
+.ph-90 {
+	width: 90%;
+}
+
+.ph-95 {
+	width: 95%;
+}
+
+.ph-100 {
+	width: 100%;
+}
+
+.ph-1-3 {
+	width: 33.33333333%;
+}
+
+.ph-2-3 {
+	width: 66.66666667%;
+}
+
+.ph-1-6 {
+	width: 16.66666667%;
+}
+
+.ph-2-6 {
+	width: 33.33333333%;
+}
+
+.ph-0 {
+	display: none;
+}
+
+/*----------  Tablet  ----------*/
+
+@media screen and (min-width: 768px) {
+
+	.tb-12c, .tb-11c, .tb-10c, .tb-9c, .tb-8c,
+	.tb-7c, .tb-6c, .tb-5c, .tb-4c, .tb-3c, 
+	.tb-2c, .tb-1c,
+	.tb-5, .tb-10, .tb-15, .tb-20, .tb-25, .tb-30,
+	.tb-35, .tb-40, .tb-45, .tb-50, .tb-55, .tb-60,
+	.tb-65, .tb-70, .tb-75, .tb-80, .tb-85, .tb-90,
+	.tb-95, .tb-100,
+	.tb-1-3, .tb-2-3, .tb-1-6, .tb-2-6 {
+		position: relative;
+		float: left;
+		height: auto;
+	}
+	
+	.tb-12c {
+		width: 100%;
+	}
+	
+	.tb-11c {
+		width: 91.66666667%;
+	}
+	
+	.tb-10c {
+		width: 83.33333333%;
+	}
+	
+	.tb-9c {
+		width: 75%;
+	}
+	
+	.tb-8c {
+		width: 66.66666667%;
+	}
+	
+	.tb-7c {
+		width: 58.33333333%;
+	}
+	
+	.tb-6c {
+		width: 50%;
+	}
+	
+	.tb-5c {
+		width: 41.66666667%;
+	}
+	
+	.tb-4c {
+		width: 33.33333333%;
+	}
+	
+	.tb-3c {
+		width: 25%;
+	}
+	
+	.tb-2c {
+		width: 16.66666667%;
+	}
+	
+	.tb-1c {
+		width: 8.33333333%;
+	}
+
+	.tb-5 {
+		width: 5%;
+	}
+
+	.tb-10 {
+		width: 10%;
+	}
+
+	.tb-15 {
+		width: 15%;
+	}
+
+	.tb-20 {
+		width: 20%;
+	}
+
+	.tb-25 {
+		width: 25%;
+	}
+
+	.tb-30 {
+		width: 30%;
+	}
+
+	.tb-35 {
+		width: 35%;
+	}
+
+	.tb-40 {
+		width: 40%;
+	}
+
+	.tb-45 {
+		width: 45%;
+	}
+
+	.tb-50 {
+		width: 50%;
+	}
+
+	.tb-55 {
+		width: 55%;
+	}
+
+	.tb-60 {
+		width: 60%;
+	}
+
+	.tb-65 {
+		width: 65%;
+	}
+
+	.tb-70 {
+		width: 70%;
+	}
+
+	.tb-75 {
+		width: 75%;
+	}
+
+	.tb-80 {
+		width: 80%;
+	}
+
+	.tb-85 {
+		width: 85%;
+	}
+
+	.tb-90 {
+		width: 90%;
+	}
+
+	.tb-95 {
+		width: 95%;
+	}
+
+	.tb-100 {
+		width: 100%;
+	}
+
+	.tb-1-3 {
+		width: 33.33333333%;
+	}
+
+	.tb-2-3 {
+		width: 66.66666667%;
+	}
+
+	.tb-1-6 {
+		width: 16.66666667%;
+	}
+
+	.tb-2-6 {
+		width: 33.33333333%;
+	}
+	
+	.tb-0 {
+		display: none;
+	}
+}
+
+/*----------  Laptop  ----------*/
+
+@media screen and (min-width: 992px) {
+
+	.lt-12c, .lt-11c, .lt-10c, .lt-9c, .lt-8c,
+	.lt-7c, .lt-6c, .lt-5c, .lt-4c, .lt-3c, 
+	.lt-2c, .lt-1c,
+	.lt-5, .lt-10, .lt-15, .lt-20, .lt-25, .lt-30,
+	.lt-35, .lt-40, .lt-45, .lt-50, .lt-55, .lt-60,
+	.lt-65, .lt-70, .lt-75, .lt-80, .lt-85, .lt-90,
+	.lt-95, .lt-100,
+	.lt-1-3, .lt-2-3, .lt-1-6, .lt-2-6 {
+		position: relative;
+		float: left;
+		height: auto;
+	}
+
+	.lt-12c {
+		width: 100%;
+	}
+	
+	.lt-11c {
+		width: 91.66666667%;
+	}
+	
+	.lt-10c {
+		width: 83.33333333%;
+	}
+	
+	.lt-9c {
+		width: 75%;
+	}
+	
+	.lt-8c {
+		width: 66.66666667%;
+	}
+	
+	.lt-7c {
+		width: 58.33333333%;
+	}
+	
+	.lt-6c {
+		width: 50%;
+	}
+	
+	.lt-5c {
+		width: 41.66666667%;
+	}
+	
+	.lt-4c {
+		width: 33.33333333%;
+	}
+	
+	.lt-3c {
+		width: 25%;
+	}
+	
+	.lt-2c {
+		width: 16.66666667%;
+	}
+	
+	.lt-1c {
+		width: 8.33333333%;
+	}
+
+	.lt-5 {
+		width: 5%;
+	}
+
+	.lt-10 {
+		width: 10%;
+	}
+
+	.lt-15 {
+		width: 15%;
+	}
+
+	.lt-20 {
+		width: 20%;
+	}
+
+	.lt-25 {
+		width: 25%;
+	}
+
+	.lt-30 {
+		width: 30%;
+	}
+
+	.lt-35 {
+		width: 35%;
+	}
+
+	.lt-40 {
+		width: 40%;
+	}
+
+	.lt-45 {
+		width: 45%;
+	}
+
+	.lt-50 {
+		width: 50%;
+	}
+
+	.lt-55 {
+		width: 55%;
+	}
+
+	.lt-60 {
+		width: 60%;
+	}
+
+	.lt-65 {
+		width: 65%;
+	}
+
+	.lt-70 {
+		width: 70%;
+	}
+
+	.lt-75 {
+		width: 75%;
+	}
+
+	.lt-80 {
+		width: 80%;
+	}
+
+	.lt-85 {
+		width: 85%;
+	}
+
+	.lt-90 {
+		width: 90%;
+	}
+
+	.lt-95 {
+		width: 95%;
+	}
+
+	.lt-100 {
+		width: 100%;
+	}
+
+	.lt-1-3 {
+		width: 33.33333333%;
+	}
+
+	.lt-2-3 {
+		width: 66.66666667%;
+	}
+
+	.lt-1-6 {
+		width: 16.66666667%;
+	}
+
+	.lt-2-6 {
+		width: 33.33333333%;
+	}
+	
+	.lt-0 {
+		display: none;
+	}
+}
+
+/*----------  Desktop  ----------*/
+
+@media screen and (min-width: 1200px) {
+
+	.dt-12c, .dt-11c, .dt-10c, .dt-9c, .dt-8c,
+	.dt-7c, .dt-6c, .dt-5c, .dt-4c, .dt-3c, 
+	.dt-2c, .dt-1c,
+	.dt-5, .dt-10, .dt-15, .dt-20, .dt-25, .dt-30,
+	.dt-35, .dt-40, .dt-45, .dt-50, .dt-55, .dt-60,
+	.dt-65, .dt-70, .dt-75, .dt-80, .dt-85, .dt-90,
+	.dt-95, .dt-100,
+	.dt-1-3, .dt-2-3, .dt-1-6, .dt-2-6 {
+		position: relative;
+		float: left;
+		height: auto;
+	}
+	
+	.dt-12c {
+		width: 100%;
+	}
+	
+	.dt-11c {
+		width: 91.66666667%;
+	}
+	
+	.dt-10c {
+		width: 83.33333333%;
+	}
+	
+	.dt-9c {
+		width: 75%;
+	}
+	
+	.dt-8c {
+		width: 66.66666667%;
+	}
+	
+	.dt-7c {
+		width: 58.33333333%;
+	}
+	
+	.dt-6c {
+		width: 50%;
+	}
+	
+	.dt-5c {
+		width: 41.66666667%;
+	}
+	
+	.dt-4c {
+		width: 33.33333333%;
+	}
+	
+	.dt-3c {
+		width: 25%;
+	}
+	
+	.dt-2c {
+		width: 16.66666667%;
+	}
+	
+	.dt-1c {
+		width: 8.33333333%;
+	}
+
+	.dt-5 {
+		width: 5%;
+	}
+
+	.dt-10 {
+		width: 10%;
+	}
+
+	.dt-15 {
+		width: 15%;
+	}
+
+	.dt-20 {
+		width: 20%;
+	}
+
+	.dt-25 {
+		width: 25%;
+	}
+
+	.dt-30 {
+		width: 30%;
+	}
+
+	.dt-35 {
+		width: 35%;
+	}
+
+	.dt-40 {
+		width: 40%;
+	}
+
+	.dt-45 {
+		width: 45%;
+	}
+
+	.dt-50 {
+		width: 50%;
+	}
+
+	.dt-55 {
+		width: 55%;
+	}
+
+	.dt-60 {
+		width: 60%;
+	}
+
+	.dt-65 {
+		width: 65%;
+	}
+
+	.dt-70 {
+		width: 70%;
+	}
+
+	.dt-75 {
+		width: 75%;
+	}
+
+	.dt-80 {
+		width: 80%;
+	}
+
+	.dt-85 {
+		width: 85%;
+	}
+
+	.dt-90 {
+		width: 90%;
+	}
+
+	.dt-95 {
+		width: 95%;
+	}
+
+	.dt-100 {
+		width: 100%;
+	}
+
+	.dt-1-3 {
+		width: 33.33333333%;
+	}
+
+	.dt-2-3 {
+		width: 66.66666667%;
+	}
+
+	.dt-1-6 {
+		width: 16.66666667%;
+	}
+
+	.dt-2-6 {
+		width: 33.33333333%;
+	}
+	
+	.dt-0 {
+		display: none;
+	}
+}
+
+/*=====  End of Grid System  ======*/

@@ -1,0 +1,290 @@
+/*=====================================/
+    Aspectos Generales
+/=====================================*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%;
+  height: 100%; }
+  html body {
+    background-color: #EEF5F8;
+    font-size: 10px;
+    height: 100%;
+    font-family: "Quattrocento Sans", sans-serif; }
+    html body p {
+      font-size: 1.4em;
+      color: #666;
+      margin-bottom: 1em; }
+      html body p:last-child {
+        margin-bottom: 0; }
+    html body .bold {
+      font-weight: 700; }
+
+/*=====================================/
+    Cabecera
+/=====================================*/
+#cont-menu {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  #cont-menu #fecha {
+    padding: 30px 60px 20px 0;
+    color: gray; }
+
+.menu {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  padding: 30px 60px 20px; }
+  .menu li {
+    list-style: none;
+    font-size: 1.4em;
+    margin-left: 60px; }
+    .menu li a {
+      color: #666;
+      text-decoration: none; }
+      .menu li a:hover {
+        color: #40D1FA;
+        text-shadow: 0 1px 3px #eee; }
+
+.banner {
+  width: 100%;
+  background-image: url(../img/cara-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: #fff;
+  border-bottom: 30px solid #005b81; }
+  .banner .titulo-cabecera {
+    text-align: center;
+    margin-right: 120px; }
+    .banner .titulo-cabecera h1 {
+      font-size: 3em; }
+    .banner .titulo-cabecera p {
+      color: #fff; }
+  .banner .bienvenido {
+    width: 35%; }
+    .banner .bienvenido p {
+      font-size: 2em;
+      color: #fff;
+      text-align: center;
+      line-height: 1.8; }
+  .banner .contenedor {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .banner .contenedor .logo {
+      width: 16.66%;
+      position: relative;
+      top: 30px; }
+      .banner .contenedor .logo img {
+        width: 100%; }
+
+/*=====================================/
+    Contenido
+/=====================================*/
+.wrapper {
+  margin: auto;
+  width: 83.33333333%;
+  max-width: 1200px; }
+
+.seccion {
+  padding: 15px 0; }
+
+.seccion-seguros {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+.caja-seguros {
+  width: 190px;
+  background-color: #fff;
+  padding: 148px 30px 30px;
+  box-shadow: 0 0 3px 3px #ccc;
+  position: relative;
+  transition: all 0.5s ease;
+  margin: 15px 0; }
+  .caja-seguros:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 5px #aaa; }
+  .caja-seguros h2 {
+    font-size: 1.8em;
+    color: #fff;
+    background-color: rgba(0, 91, 129, 0.85);
+    padding: 10px 0 10px 15px;
+    width: 100%;
+    position: absolute;
+    left: -15px;
+    top: 85px; }
+  .caja-seguros .bisel-titulo {
+    position: absolute;
+    left: -15px;
+    top: 125px; }
+  .caja-seguros li {
+    font-size: 1.4em; }
+    .caja-seguros li a {
+      color: #666;
+      text-decoration: none; }
+      .caja-seguros li a:hover {
+        color: #40D1FA;
+        text-shadow: 0 1px 3px #eee; }
+
+.seguro-salud {
+  background-image: url(../img/seguro-salud.jpg);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat; }
+
+.seguro-vida {
+  background-image: url(../img/seguro-vida.jpg);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat; }
+
+.seguro-patrimonio {
+  background-image: url(../img/seguro-patrimonio.jpg);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat; }
+
+.nosotros {
+  background-image: url(../img/seguro-patrimonio.jpg);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat; }
+
+.contacto {
+  background-image: url(../img/seguro-patrimonio.jpg);
+  background-size: 100%;
+  background-position: top center;
+  background-repeat: no-repeat; }
+
+#informativo {
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+  #informativo .titulo-informativo {
+    text-align: center;
+    background-color: #005b81;
+    color: #fff;
+    font-size: 3em; }
+  #informativo .caja-informativo, #informativo .titulo-informativo {
+    padding: 30px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between; }
+    #informativo .caja-informativo .titulo-informativos, #informativo .titulo-informativo .titulo-informativos {
+      font-size: 1.8em;
+      margin-bottom: 0.7em;
+      color: #005b81; }
+    #informativo .caja-informativo p, #informativo .titulo-informativo p {
+      text-align: justify; }
+  #informativo #info1 {
+    background-color: #edf6ea; }
+  #informativo #info2 {
+    background-color: #c9dcce; }
+  #informativo #info3 {
+    background-color: #E1EEEE; }
+  #informativo #info4 {
+    background-color: #a3e9fd; }
+  #informativo .btn-leer {
+    background-color: #005b81;
+    font-size: 1.4em;
+    border-radius: 5px;
+    margin: 0 auto; }
+    #informativo .btn-leer a {
+      color: #ddd;
+      text-decoration: none;
+      display: block;
+      padding: 10px 20px;
+      width: 100%;
+      height: 100%; }
+      #informativo .btn-leer a:hover {
+        background-color: #006d9b;
+        border-radius: 5px; }
+  #informativo .video-informativo {
+    width: 100%;
+    margin-top: 15px; }
+
+footer {
+  width: 100%;
+  background-color: #005b81;
+  padding: 30px 0 60px; }
+  footer .wrapper {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end; }
+    footer .wrapper p {
+      color: #bbb;
+      line-height: 0.7em; }
+    footer .wrapper .icon {
+      color: #bbb;
+      font-size: 1.5em;
+      margin-right: 7px;
+      position: relative;
+      top: 5px; }
+    footer .wrapper .barra {
+      margin: 0 8px; }
+    footer .wrapper #izquierda,
+    footer .wrapper #derecha {
+      width: 50%; }
+    footer .wrapper #derecha {
+      text-align: right; }
+
+/*=====================================/
+   Debajo de 768px
+/=====================================*/
+@media screen and (max-width: 768px) {
+  .menu {
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .menu li {
+      margin-left: 30px; }
+      .menu li:first-child {
+        margin-left: 0; }
+  .banner .titulo-cabecera {
+    margin-right: 0; }
+  .banner .bienvenido {
+    display: none; }
+  .banner .contenedor .logo {
+    width: 25%; } }

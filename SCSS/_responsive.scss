@@ -1,0 +1,37 @@
+/*=====================================/
+   Debajo de 768px
+/=====================================*/
+
+@media screen and (max-width: 768px) {
+    
+    .menu {
+        justify-content: center;
+        
+        li {
+            margin-left: 30px;
+            
+            &:first-child {
+                margin-left: 0;
+            }
+        }
+    }
+    
+    .banner {
+
+        .titulo-cabecera {
+             margin-right: 0;
+        }
+        
+        .bienvenido {
+            display: none;
+        }
+        
+         .contenedor {
+            .logo {
+                width: 25%;
+            }
+        }
+    }
+    
+   
+}
