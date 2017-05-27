@@ -135,13 +135,17 @@ html {
     box-shadow: 0 0 5px 5px #aaa; }
   .caja-seguros h2 {
     font-size: 1.8em;
-    color: #fff;
     background-color: rgba(0, 91, 129, 0.85);
     padding: 10px 0 10px 15px;
     width: 100%;
     position: absolute;
     left: -15px;
     top: 85px; }
+    .caja-seguros h2 a {
+      color: #eee;
+      text-decoration: none; }
+      .caja-seguros h2 a:hover {
+        color: #fff; }
   .caja-seguros .bisel-titulo {
     position: absolute;
     left: -15px;
@@ -174,13 +178,13 @@ html {
   background-repeat: no-repeat; }
 
 .nosotros {
-  background-image: url(../img/seguro-patrimonio.jpg);
+  background-image: url(../img/nosotros.jpg);
   background-size: 100%;
   background-position: top center;
   background-repeat: no-repeat; }
 
 .contacto {
-  background-image: url(../img/seguro-patrimonio.jpg);
+  background-image: url(../img/contacto.jpg);
   background-size: 100%;
   background-position: top center;
   background-repeat: no-repeat; }
@@ -193,55 +197,82 @@ html {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
-  #informativo .titulo-informativo {
-    text-align: center;
-    background-color: #005b81;
-    color: #fff;
-    font-size: 3em; }
-  #informativo .caja-informativo, #informativo .titulo-informativo {
-    padding: 30px;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-align-content: space-between;
-    -ms-flex-line-pack: justify;
-    align-content: space-between; }
-    #informativo .caja-informativo .titulo-informativos, #informativo .titulo-informativo .titulo-informativos {
-      font-size: 1.8em;
-      margin-bottom: 0.7em;
-      color: #005b81; }
-    #informativo .caja-informativo p, #informativo .titulo-informativo p {
-      text-align: justify; }
-  #informativo #info1 {
-    background-color: #edf6ea; }
-  #informativo #info2 {
-    background-color: #c9dcce; }
-  #informativo #info3 {
-    background-color: #E1EEEE; }
-  #informativo #info4 {
-    background-color: #a3e9fd; }
-  #informativo .btn-leer {
-    background-color: #005b81;
-    font-size: 1.4em;
-    border-radius: 5px;
-    margin: 0 auto; }
-    #informativo .btn-leer a {
-      color: #ddd;
-      text-decoration: none;
-      display: block;
-      padding: 10px 20px;
-      width: 100%;
-      height: 100%; }
-      #informativo .btn-leer a:hover {
-        background-color: #006d9b;
-        border-radius: 5px; }
-  #informativo .video-informativo {
-    width: 100%;
+
+.titulo-informativo {
+  text-align: center;
+  background-color: #005b81;
+  color: #fff;
+  font-size: 3em; }
+
+.caja-informativo, .titulo-informativo {
+  padding: 30px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-content: space-between;
+  -ms-flex-line-pack: justify;
+  align-content: space-between; }
+  .caja-informativo .titulo-informativos, .titulo-informativo .titulo-informativos {
+    font-size: 1.8em;
+    margin-bottom: 0.7em;
+    color: #005b81; }
+  .caja-informativo p, .titulo-informativo p {
+    text-align: justify; }
+  .caja-informativo .video-informativo, .titulo-informativo .video-informativo {
     margin-top: 15px; }
 
+#info1, #info-amplio1 {
+  background-color: #edf6ea; }
+
+#info2, #info-amplio2 {
+  background-color: #c9dcce; }
+
+#info3, #info-amplio3 {
+  background-color: #E1EEEE; }
+
+#info4, #info-amplio4 {
+  background-color: #a3e9fd; }
+
+.btn-leer {
+  background-color: #005b81;
+  font-size: 1.4em;
+  border-radius: 5px;
+  margin: 0 auto; }
+  .btn-leer a {
+    color: #ddd;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100%; }
+    .btn-leer a:hover {
+      background-color: #006d9b;
+      border-radius: 5px; }
+
+.video-informativo {
+  width: 100%; }
+  .video-informativo iframe {
+    width: 100%; }
+
+.informativo-amplio {
+  padding: 30px; }
+  .informativo-amplio .video-informativo {
+    height: 300px; }
+    .informativo-amplio .video-informativo iframe {
+      height: 100%; }
+  .informativo-amplio .titulo-informativos {
+    font-size: 2.4em;
+    margin: 1em 0;
+    color: #005b81; }
+  .informativo-amplio p {
+    text-align: justify; }
+
+/*==============================================
+=                     Footer                    =
+===============================================*/
 footer {
   width: 100%;
   background-color: #005b81;
@@ -270,6 +301,83 @@ footer {
     footer .wrapper #derecha {
       text-align: right; }
 
+/*=============  Fin de Footer  ==============*/
+/*==============================================
+=             Formulario de contacto            =
+===============================================*/
+#form-contacto {
+  padding: 30px;
+  width: 100%;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-color: #d9d9d9; }
+  #form-contacto #inputs, #form-contacto #textarea {
+    width: 48.5%; }
+  #form-contacto #boton {
+    width: 100%;
+    text-align: center; }
+    #form-contacto #boton #btn {
+      width: 20%;
+      background-color: #005b81;
+      font-size: 1.4em;
+      border-radius: 5px;
+      color: #ddd;
+      cursor: pointer;
+      margin-bottom: 0;
+      margin-top: 10px; }
+      #form-contacto #boton #btn:hover {
+        background-color: #006d9b;
+        border-radius: 5px; }
+  #form-contacto input, #form-contacto textarea {
+    width: 100%;
+    padding: 7px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    border: none;
+    border: 1px #d9d9d9; }
+    #form-contacto input:focus, #form-contacto textarea:focus {
+      border: 1px #40D1FA; }
+  #form-contacto textarea {
+    resize: none;
+    height: 180px; }
+
+.asesores {
+  margin: 15px 0;
+  padding: 15px 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .asesores .asesor-pic {
+    width: 30%; }
+    .asesores .asesor-pic img {
+      width: 100%;
+      display: block;
+      border-radius: 50%;
+      box-shadow: 2px 2px 3px 3px #ccc; }
+  .asesores .asesor-dato {
+    width: 70%;
+    padding-left: 15px; }
+    .asesores .asesor-dato p {
+      margin-bottom: 0;
+      line-height: 1.5; }
+    .asesores .asesor-dato .cargo {
+      font-size: 2em;
+      font-weight: 700;
+      color: #005b81; }
+    .asesores .asesor-dato .datos {
+      font-size: 1.4em; }
+
+/*======  Fin de Formulario de contacto  =======*/
 /*=====================================/
    Debajo de 768px
 /=====================================*/

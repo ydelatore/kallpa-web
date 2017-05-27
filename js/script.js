@@ -1,5 +1,7 @@
 $(document).ready(function(){
     
+    // Fecha en la web
+    
     var fecha = new Date();
     
     var dias = [
@@ -30,4 +32,13 @@ $(document).ready(function(){
     $('#fecha-footer').text(fecha.getFullYear());
     
     $('#fecha').text(dias[fecha.getDay()] + ', ' + fecha.getDate() + ' de ' + meses[fecha.getMonth()] + ' de ' + fecha.getFullYear());
+    
+    
+    
+    // Colorbox
+    
+    $('.informativo-amplio').colorbox({inline:true, width:'45%'});
+    
 });
+
+
