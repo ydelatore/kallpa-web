@@ -13,7 +13,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
         <title>Kallpa - Corredores de Seguros</title>
     </head>
-    
+<!--    comienzo el trabajo-->
     <body>
         <div id="fb-root"></div>
         <script>(function(d, s, id) {
@@ -33,11 +33,10 @@
                 
                 <navv>
                     <ul>
-                        <li><a href="salud.html">Seguro Accidental</a></li>
-                        <li><a href="salud.html">Seguro de Asistencia Medica</a></li>
+                        <li><a href="salud.html">Seguro de Salud</a></li>
+                        <li><a href="salud.html">Seguro Accidentes Personales</a></li>
                         <li><a href="salud.html">Seguro Oncologicos</a></li>
-                        <li><a href="salud.html">Seguro Estudialtil</a></li>
-                        <li><a href="salud.html">Seguro de Viaje</a></li>
+                        <li><a href="salud.html">SCTR</a></li>
                     </ul>
                 </navv>
             </div>
@@ -61,7 +60,6 @@
                 
                 <navv>
                     <ul>
-                        <li><a href="patrimonio.html">Seguros Patrimoniales</a></li>
                         <li><a href="patrimonio.html">Seguro Vehicular</a></li>
                         <li><a href="patrimonio.html">Seguro Contra Robos</a></li>
                         <li><a href="patrimonio.html">Seguros de Riesgo</a></li>
@@ -207,7 +205,20 @@
                     
                     <div class="fb-comments" data-href="http://localhost:8888/proyectos-web/kallpa/" data-width="100%" data-numposts="3" data-order-by="reverse-time"></div>
                 </div>
+               
             </div>
+            <h2 class="titulo-informativo lt-100">Agencias Asociadas</h2>
+            <div class="agencias-home">
+                <div class="agencia-home"><img src="img/La_positiva.jpg" alt="Seguros La Positiva"></div>
+                <div class="agencia-home"><img src="img/pacifico.jpg" alt="Seguros La Positiva"></div>
+                <div class="agencia-home"><img src="img/mapfre.jpg" alt="Seguros Mapfre"></div>
+                <div class="agencia-home"><img src="img/chubb.jpg" alt="Chubb Group of Insurance Companies"></div>
+            </div>
+             
+           
+             
+            
+             
         </section>
         
         <?php include 'inc/_footer.php'; ?>

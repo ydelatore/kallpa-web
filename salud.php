@@ -27,9 +27,49 @@
         
         <section class="contenedor" id="informativo">
             <h2 class="titulo-informativo lt-100">Seguro de Salud</h2>
+        
             
             <article class="caja-informativo lt-100" id="info1">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, reiciendis? Aspernatur sit reprehenderit, dolore, voluptatibus rem ipsam ea veritatis ex! Est voluptas minus, nobis veniam quos, incidunt quibusdam magni, odit voluptatem ipsam praesentium, reprehenderit vitae! Ratione quis nobis laudantium adipisci delectus consectetur dolore, dolorem veritatis mollitia ab at praesentium quaerat odio quae nisi, aliquid incidunt molestias accusantium obcaecati iure fugit alias perspiciatis tempora natus non. Culpa architecto aperiam explicabo eligendi modi illum praesentium distinctio, consequatur soluta repudiandae provident doloribus asperiores, rerum aliquam, nulla ipsum sunt ea vel fugit ratione autem quia! Ab, quae aspernatur obcaecati facere atque, enim accusamus sequi recusandae at voluptates quam a aut, ut nostrum sunt odio libero tenetur maiores aliquam? Dolorem in tempore molestias, doloremque velit architecto eius laudantium asperiores officiis accusamus deserunt officia. Dolorem, at aperiam dignissimos enim tempore saepe iure dolorum, consequuntur odio recusandae suscipit provident ipsam delectus consequatur possimus atque quidem inventore itaque vero ratione nam fugit error in? Nobis, voluptas reprehenderit adipisci veniam deleniti dolorum sint nemo minus modi. Sint blanditiis a libero, ex. Similique ex aperiam tenetur, distinctio repellat libero porro, quo veritatis impedit dolores pariatur accusantium quis dolorum quia optio tempora. Aut modi enim recusandae provident perspiciatis officiis, dolor iste.</p>
+              
+               <img src="img/ambulancia%20copia.png">
+               
+                <p>•	Seguro Salud
+                o	Protege cualquier perjuicio económico a consecuencia de una enfermedad
+                o	Acceso a tratamientos médicos especializados
+                o	Amplia Red de clínicas a nivel nacional
+                o	Cómodas opciones pensando en la economía del cliente
+                o	Emergencia accidental y medica al 100%
+                o	Coberturas de gastos ambulatorios y hospitalarios
+            </p>
+            
+                <img src="img/enfermeria%20copia.png"
+              
+                <p>•    Seguro Accidentes Personales
+                o	Protección integral contra accidentes al 100%
+                o	Coberturas de Muerte Accidental, Invalidez total y permanente
+                o	Cobertura para cónyuges e hijos
+                o	Indemnización diaria por hospitalización
+            </p>
+            
+            <img src="img/oncologico.png"
+              
+                <p>•    Seguro Oncológico
+                o	Cobertura al 100%
+                o	Tratamiento de Terapia Biológica, Quimioterapia, Radioterapia
+                o	Reconstrucción mamaria y de pezón para pacientes con mastectomía radical y cáncer de mama
+                o	Despistaje oncológico anual gratuito
+                o	Más de 30 clínicas y centros oncológicos especializados
+            </p>
+            
+                        <img src="img/SCTR.png"
+              
+                <p>•    SCTR – Seguro Complementario de Trabajo de Riesgo
+                o	Atención médica, farmacológica, hospitalaria y quirúrgica
+                o	Cobertura total en caso de accidentes laborales
+                o	Prevención en Salud y Seguridad Ocupacional
+                o	Cobertura de Invalidez, Sobrevivencia y Gastos de Sepelio
+            </p>
+            
             </article>
         </section>
         

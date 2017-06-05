@@ -3,7 +3,8 @@
 /=====================================*/
 * {
   margin: 0;
-  padding: 0;
+  padding: 10;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
 html {
@@ -27,12 +28,15 @@ html {
     Cabecera
 /=====================================*/
 #cont-menu {
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center; }
@@ -41,9 +45,11 @@ html {
     color: gray; }
 
 .menu {
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
   -ms-flex-pack: end;
   justify-content: flex-end;
@@ -82,12 +88,15 @@ html {
       text-align: center;
       line-height: 1.8; }
   .banner .contenedor {
+    display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center; }
@@ -110,9 +119,11 @@ html {
   padding: 15px 0; }
 
 .seccion-seguros {
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -124,14 +135,18 @@ html {
   width: 190px;
   background-color: #fff;
   padding: 148px 30px 30px;
+  -webkit-box-shadow: 0 0 3px 3px #ccc;
   box-shadow: 0 0 3px 3px #ccc;
   position: relative;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   margin: 15px 0; }
   .caja-seguros:hover {
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+    -webkit-box-shadow: 0 0 5px 5px #aaa;
     box-shadow: 0 0 5px 5px #aaa; }
   .caja-seguros h2 {
     font-size: 1.8em;
@@ -191,6 +206,7 @@ html {
 
 #informativo {
   position: relative;
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -202,10 +218,16 @@ html {
   text-align: center;
   background-color: #005b81;
   color: #fff;
-  font-size: 3em; }
+  font-size: 3em;
+  padding: 20px; }
 
-.caja-informativo, .titulo-informativo {
+.subtitulo {
+  color: #005b81;
+  font-size: 2em; }
+
+.caja-informativo {
   padding: 30px;
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -215,26 +237,26 @@ html {
   -webkit-align-content: space-between;
   -ms-flex-line-pack: justify;
   align-content: space-between; }
-  .caja-informativo .titulo-informativos, .titulo-informativo .titulo-informativos {
+  .caja-informativo .titulo-informativos {
     font-size: 1.8em;
     margin-bottom: 0.7em;
     color: #005b81; }
-  .caja-informativo p, .titulo-informativo p {
+  .caja-informativo p {
     text-align: justify; }
-  .caja-informativo .video-informativo, .titulo-informativo .video-informativo {
+  .caja-informativo .video-informativo {
     margin-top: 15px; }
 
 #info1, #info-amplio1 {
-  background-color: #edf6ea; }
+  background-color: #C9F2F7; }
 
 #info2, #info-amplio2 {
-  background-color: #c9dcce; }
+  background-color: #E6FAFF; }
 
 #info3, #info-amplio3 {
-  background-color: #E1EEEE; }
+  background-color: #E0F1F3; }
 
 #info4, #info-amplio4 {
-  background-color: #a3e9fd; }
+  background-color: #AAD4F7; }
 
 .btn-leer {
   background-color: #005b81;
@@ -270,6 +292,27 @@ html {
   .informativo-amplio p {
     text-align: justify; }
 
+.agencias-home {
+  background-color: #fff;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px 0; }
+  .agencias-home .agencia-home {
+    width: 16%; }
+    .agencias-home .agencia-home img {
+      width: 100%;
+      display: block; }
+
 /*==============================================
 =                     Footer                    =
 ===============================================*/
@@ -278,9 +321,11 @@ footer {
   background-color: #005b81;
   padding: 30px 0 60px; }
   footer .wrapper {
+    display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: end;
     -webkit-align-items: flex-end;
     -ms-flex-align: end;
     align-items: flex-end; }
@@ -308,12 +353,14 @@ footer {
 #form-contacto {
   padding: 30px;
   width: 100%;
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
+  -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -351,9 +398,11 @@ footer {
 .asesores {
   margin: 15px 0;
   padding: 15px 0;
+  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center; }
@@ -363,6 +412,7 @@ footer {
       width: 100%;
       display: block;
       border-radius: 50%;
+      -webkit-box-shadow: 2px 2px 3px 3px #ccc;
       box-shadow: 2px 2px 3px 3px #ccc; }
   .asesores .asesor-dato {
     width: 70%;
@@ -383,6 +433,7 @@ footer {
 /=====================================*/
 @media screen and (max-width: 768px) {
   .menu {
+    -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center; }

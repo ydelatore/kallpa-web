@@ -3,29 +3,31 @@
 //******************************************* PRIMER ARTICULO /******************************/
 
 // Colocar aquí el titulo del articulo
-$titulo_info1 = "
-    Importancia de un brocker de seguros
-";
+$titulo_info1 = '
+    Importancia de Un Brocker de Seguros
+';
 
 // Colocar aquí el resumen o versión corta del artículo dentro de etiquetas de parrafo
-$resumen_info1 = "
-    <strong>KALLPA</strong> cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes – Personas Naturales. 1
-";
+$resumen_info1 = '
+    <strong>KALLPA</strong> SU Broker de Seguros no sólo es importante porque le va a dar a su cliente un asesoramiento técnico, sino también porque lo va a defender en caso suceda un siniestro.
+';
 
 // Colocar aquí el artículo completo separado en etiquetas de parrafo
-$articulo_info1 = "
-    <p>1 <strong>KALLPA</strong> cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes – Personas Naturales. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ratione harum fugiat molestias expedita hic necessitatibus maiores eaque facere officia.</p>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos tempora nihil illum laudantium labore debitis velit distinctio ut cum, odio amet impedit natus dolorum assumenda, voluptatum dicta culpa. Reprehenderit dolorum, iure, nobis asperiores aperiam quaerat. Tenetur quae velit praesentium, dicta deleniti. Excepturi esse sunt, voluptate, recusandae aspernatu.</p>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos tempora nihil illum laudantium labore debitis velit distinctio ut cum, odio amet impedit natus dolorum assumenda, voluptatum dicta culpa. Reprehenderit dolorum, iure, nobis asperiores aperiam quaerat. Tenetur quae velit praesentium, dicta deleniti. Excepturi esse sunt, voluptate, recusandae aspernatu.</p>
-    
-    <p>KALLPA cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes – Personas Naturales. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos ratione harum fugiat molestias expedita hic necessitatibus maiores eaque facere officia.</p>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos tempora nihil illum laudantium labore debitis velit distinctio ut cum, odio amet impedit natus dolorum assumenda, voluptatum dicta culpa. Reprehenderit dolorum, iure, nobis asperiores aperiam quaerat. Tenetur quae velit praesentium, dicta deleniti. Excepturi esse sunt, voluptate, recusandae aspernatu.</p>
-    
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos tempora nihil illum laudantium labore debitis velit distinctio ut cum, odio amet impedit natus dolorum assumenda, voluptatum dicta culpa. Reprehenderit dolorum, iure, nobis asperiores aperiam quaerat. Tenetur quae velit praesentium, dicta deleniti. Excepturi esse sunt, voluptate, recusandae aspernatu.</p>
-";
+$articulo_info1 = '
+    <p>1 KALLPA SU Broker de Seguros no sólo es importante porque le va a dar a su cliente un asesoramiento técnico, sino también porque lo va a defender en caso suceda un siniestro.</p>
+
+    <p>Hay muchas personas e instituciones que salen a vender seguros como asesores profesionales sin conocer mucho o nada de seguros. Pero qué va a pasar cuando suceda un siniestro a un asegurado o cuando fallezca el padre o madre que tomó un seguro de vida o un SOAT por ejemplo, a quién va a recurrir el asegurado o beneficiario.
+</p>
+
+    <p>Por ejemplo, ¿a quién va a hacer caso el vendedor de la compañía de seguros a sus superiores o al asegurado?
+</p>
+
+    <p>Nosotros somos profesionales en Seguros, y vamos a defender a nuestros clientes (contratante, asegurado o beneficiario) cuando suceda un siniestro. Además poseemos una Póliza de Responsabilidad Civil Profesional, dándoles total seguridad.</p>
+
+    <p>Es muy importante que una persona o empresa cuente con un Broker de Seguros, ya que es su abogado ante la compañía aseguradora. El Broker de Seguros no tiene ningún compromiso con ninguna compañía de seguros, su único compromiso es su cliente, es asesorarlo y defenderlo.</p>
+
+    <p>Por otra parte, el cliente no tiene por qué saber de seguros. Sin embargo, cuando suceda un siniestro va a tener que enfrentarse ante una compañía de seguros que sí conoce mucho de seguros y todos los tecnicismos. He aquí la importancia del Broker de Seguros. Por eso es que si se contrata el seguro directamente con la aseguradora y hubiera un siniestro no cubierto, es como ir a un juicio sin abogado..</p>
+';
 
 // Colocar aquí el código iframe de youtube para el video del artículo
 $video_info1 = '
@@ -41,29 +43,25 @@ $video_info1 = '
 //******************************************* SEGUNDO ARTICULO /******************************/
 
 // Colocar aquí el titulo del articulo
-$titulo_info2 = "
-    ¿Por qué un seguro?
-";
+$titulo_info2 = '
+    ¿Por qué Un Seguro?
+';
 
 // Colocar aquí el resumen o versión corta del artículo dentro de etiquetas de parrafo
-$resumen_info2 = "
-    KALLPA cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes. 2
-";
+$resumen_info2 = '
+    Todos estamos expuestos a  imprevistos: enfermedades, accidentes, fenómenos naturales, actos de personas que causan daño,  etc.  Cuando esto sucede nuestro patrimonio y hasta nuestra vida están en riesgo. 2
+';
 
 // Colocar aquí el artículo completo separado en etiquetas de parrafo
-$articulo_info2 = "
-    <p>2 KALLPA cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus reiciendis iste quasi pariatur nostrum necessitatibus, expedita error natus commodi, qui?</p>
+$articulo_info2 = '
+    <p>2 Todos estamos expuestos a  imprevistos: enfermedades, accidentes, fenómenos naturales, actos de personas que causan daño,  etc.  Cuando esto sucede nuestro patrimonio y hasta nuestra vida están en riesgo.</p>
     
-    <p>KALLPA cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus reiciendis iste quasi pariatur nostrum necessitatibus, expedita error natus commodi, qui?</p>
+    <p>Los seguros son: contratos mediante los cuales, el Asegurador, a cambio de una prestación económica llamada PRIMA se hace cargo de los daños que puedan sucederle a unos objetos predeterminados por el Asegurado, en caso de que acontezca alguno de los siniestros descritos y convenidos en la póliza.</p>
     
-    <p>KALLPA cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus reiciendis iste quasi pariatur nostrum necessitatibus, expedita error natus commodi, qui?</p>
+    <p>Al realizar un contrato de seguro, se obtiene protección económica de bienes o personas que pudiesen en un futuro sufrir daño.</p>
     
-    <p>KALLPA cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus reiciendis iste quasi pariatur nostrum necessitatibus, expedita error natus commodi, qui?</p>
-    
-    <p>KALLPA cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus reiciendis iste quasi pariatur nostrum necessitatibus, expedita error natus commodi, qui?</p>
-    
-    <p>KALLPA cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus reiciendis iste quasi pariatur nostrum necessitatibus, expedita error natus commodi, qui?</p>
-";
+    <p>El seguro permite: proteger las economías familiares estimulando el ahorro y dando prestación financiera cuando es más necesaria, eliminar la incertidumbre económica sobre el futuro logrando aumentar la eficiencia y  estabilizando los comercios también, es reconocida su función social estimulando la previsión y  contribuyendo con el mejoramiento de la salud pública.</p>
+';
 
 // Colocar aquí el código iframe de youtube para el video del artículo
 $video_info2 = '
@@ -79,29 +77,29 @@ $video_info2 = '
 //******************************************* TERCER ARTICULO /******************************/
 
 // Colocar aquí el titulo del articulo
-$titulo_info3 = "
-    Seguro de vide futuro 20 años PNP - FFAA
-";
+$titulo_info3 = '
+    Seguro de Vida Futuro 20 Años PNP - FFAA
+';
 
 // Colocar aquí el resumen o versión corta del artículo dentro de etiquetas de parrafo
-$resumen_info3 = "
-    KALLPA cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros 3
-";
+$resumen_info3 = '
+    Es un seguro de vida que te brinda cobertura vitalicia donde la suma asegurada se mantiene constante durante la vigencia del seguro. ¿Cuáles son las ventajas que ofrece este seguro?
+';
 
 // Colocar aquí el artículo completo separado en etiquetas de parrafo
-$articulo_info3 = "
-    <p>3 KALLPA cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga vitae incidunt commodi aperiam temporibus vel velit, dolor adipisci, ipsum enim.</p>
+$articulo_info3 = '
+    <p>3 Es un seguro de vida que te brinda cobertura vitalicia donde la suma asegurada se mantiene constante durante la vigencia del seguro. ¿Cuáles son las ventajas que ofrece este seguro?</p>
     
-    <p>Cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga vitae incidunt commodi aperiam temporibus vel velit, dolor adipisci, ipsum enim.</p>
+    <p>Cobertura para toda la vida: Tu edad no limita tu permanencia en el seguro.</p>
     
-    <p>Cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga vitae incidunt commodi aperiam temporibus vel velit, dolor adipisci, ipsum enim.</p>
+    <p>Suma asegurada constante: La suma asegurada se mantiene inamovible sin importar la edad que cumplas.</p>
     
-    <p>Cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga vitae incidunt commodi aperiam temporibus vel velit, dolor adipisci, ipsum enim.</p>
+    <p>El seguro como garantía: Puedes usar tu seguro como garantía de préstamos solicitados a entidades financieras.</p>
     
-    <p>Cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga vitae incidunt commodi aperiam temporibus vel velit, dolor adipisci, ipsum enim.</p>
+    <p>Primas niveladas: Durante el periodo de pago que elijas las primas serán constantes.</p>
     
-    <p>Cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga vitae incidunt commodi aperiam temporibus vel velit, dolor adipisci, ipsum enim.</p>
-";
+    <p>Adelanto por enfermedad: Te damos un adelanto del 50% de la suma asegurada por enfermedad grave en etapa terminal.</p>
+';
 
 // Colocar aquí el código iframe de youtube para el video del artículo
 $video_info3 = '
@@ -117,17 +115,17 @@ $video_info3 = '
 //******************************************* CUARTO ARTICULO /******************************/
 
 // Colocar aquí el titulo del articulo
-$titulo_info4 = "
-    Beneficios de un seguro de autos
-";
+$titulo_info4 = '
+    Beneficios de Un Seguro de Autos
+';
 
 // Colocar aquí el resumen o versión corta del artículo dentro de etiquetas de parrafo
-$resumen_info4 = "
+$resumen_info4 = '
     KALLPA cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes – Personas Naturales o Juridicas. 4
-";
+';
 
 // Colocar aquí el artículo completo separado en etiquetas de parrafo
-$articulo_info4 = "
+$articulo_info4 = '
     <p>4 KALLPA cuyo significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes – Personas Naturales o Juridicas.</p>
     
     <p>Significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes – Personas Naturales o Juridicas.</p>
@@ -143,7 +141,7 @@ $articulo_info4 = "
     <p>Significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes – Personas Naturales o Juridicas.</p>
     
     <p>Significado en quechua es fuerza, potencia, nace bajo el concepto de brindar protección integral a la Familia Peruana. Para nosotros nuestros clientes – Personas Naturales o Juridicas.</p>
-";
+';
 
 // Colocar aquí el código iframe de youtube para el video del artículo
 $video_info4 = '
