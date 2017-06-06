@@ -8,10 +8,10 @@
                 </div>
                 
                 <div id="derecha">
-                    <p><span><i class="icon icon-music"></i></span> Sintonizanos en Radio Kallpa</p>
-                    <p><span><i class="icon icon-facebook"></i></span> Siguenos en Radio Kallpa</p>
-                    <p><span><i class="icon icon-facebook"></i></span> Siguenos en Kallpa Futbol Club</p>
-                    <p><span><i class="icon icon-facebook"></i></span> <span class="bold">Kallpa Corredores de Seguros</span></p>
+                    <p> Sintonizanos en Radio Kallpa <span><i class="icon i-right icon-music"></i></span></p>
+                    <p> Siguenos en Radio Kallpa <span><i class="icon i-right icon-facebook"></i></span></p>
+                    <p> Siguenos en Kallpa Futbol Club <span><i class="icon i-right icon-facebook"></i></span></p>
+                    <p> <span class="bold">Kallpa Corredores de Seguros</span> <span><i class="icon i-right icon-facebook"></i></span></p>
                 </div>
             </div>
         </footer>

@@ -7,7 +7,7 @@
 
 * {
     margin: 0;
-    padding: 10;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -16,7 +16,7 @@ html {
     height: 100%;
     
     body {
-        background-color: #EEF5F8;
+        background-color: $fondo-body;
         font-size: 10px;
         height: 100%;
         font-family: "Quattrocento Sans", sans-serif;
@@ -41,6 +41,14 @@ html {
 /*=====================================/
     Cabecera
 /=====================================*/
+
+#barramenu-gris {
+    width: 100%;
+    position: fixed;
+    background-color: #EEF5F8;
+    box-shadow: 0 0 3px 3px #ccc;
+    z-index: 200;
+}
 
 #cont-menu {
     display: flex;
@@ -76,6 +84,7 @@ html {
 }
 
 .banner {
+    padding-top: 80px;
     width: 100%;
 //    height: 300px;
     background-image: url(../img/cara-1.jpg);
@@ -118,10 +127,7 @@ html {
             width: 16.66%;
             position: relative;
             top: 30px;
-            
-            img {
-                width: 100%;
-            }
+            @include ancho-img;
         }
     }
 }
@@ -185,19 +191,19 @@ html {
         left: -15px;
         top: 125px;
     }
-    
-    li {
-        font-size: 1.4em;
-        
-        a {
-            color: $gris-letras;
-            text-decoration: none;
-            
-            &:hover {
-                color: $azul-fondo;
-                text-shadow: 0 1px 3px #eee;
-                
-            }
+}
+
+li {
+    font-size: 1.4em;
+
+    a {
+        color: $gris-letras;
+        text-decoration: none;
+
+        &:hover {
+            color: $azul-fondo;
+            text-shadow: 0 1px 3px #eee;
+
         }
     }
 }
@@ -262,14 +268,8 @@ html {
     flex-wrap: wrap;
     align-content: space-between;
 
-    .titulo-informativos {
-        font-size: 1.8em;
-        margin-bottom: 0.7em;
-        color: $azul-footer;
-    }
-
     p {
-        text-align: justify;
+        text-align: center;
     }
     
     .video-informativo {
@@ -277,20 +277,28 @@ html {
     }
 }
 
+.titulo-informativos {
+    font-size: 1.8em;
+    margin-bottom: 0.7em;
+    color: $azul-footer;
+    text-align: center;
+    width: 100%;
+}
+
 #info1, #info-amplio1 {
-    background-color: #C9F2F7;
+    background-color: $color1;
 }
 
 #info2, #info-amplio2 {
-    background-color: #E6FAFF;
+    background-color: $color2;
 }
 
 #info3, #info-amplio3 {
-    background-color: #E0F1F3;
+    background-color: $color3;
 }
 
  #info4, #info-amplio4 {
-    background-color: #AAD4F7;
+    background-color: $color4;
 }
 
 .btn-leer {
@@ -360,6 +368,100 @@ html {
 
 
 /*==============================================
+=                Páginas Internas               =
+===============================================*/
+
+#seguro-salud {
+    background-color: $color1;
+}
+
+#accidentes-personales,
+#seguro-oncologico {
+    
+    .grafica {
+        
+        img {
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+}
+
+#sctr {
+    
+    .grafica {
+        
+        img {
+            width: 65%;
+            margin: 0 auto;
+        }
+    }
+}
+
+#accidentes-personales {
+    background-color: $color2;
+}
+
+#seguro-oncologico {
+    background-color: $color3;
+}
+
+#sctr {
+    background-color: $color4;
+}
+
+.grafica {
+    padding: 60px;
+    @include ancho-img;
+}
+
+.descripcion {
+    padding: 30px;
+    height: 100%;
+    padding-top: 70px;
+    
+    .titulo-informativos {
+        text-align: left;
+    }
+}
+
+.iconos {
+    margin-top: 30px;
+    
+    a {
+        text-decoration: none;
+        display: block;
+        width: 100%;
+        height: 100%;
+        color: $fondo-body;
+        position: relative;
+    }
+    
+    div {
+        text-align: center;
+        padding: 20px;
+        background-color: $azul-footer;
+        width: 8em;
+        height: 8em;
+        border-radius: 50%;
+        margin-right: 30px;
+        
+        &:hover {
+            background-color: lighten($azul-footer, 5%);
+        }
+    }
+        
+    .icon {
+        font-size: 4em;
+//        position: relative;
+//        top: 2px;
+    }
+    
+}
+
+/*==========  Fin de Páginas Inter  ==========*/
+
+/*==============================================
 =                     Footer                    =
 ===============================================*/
 
@@ -373,16 +475,21 @@ footer {
         align-items: flex-end;
         
         p {
-            color: #bbb;
+            color: $fondo-body;
             line-height: 0.7em;
         }
 
         .icon {
-            color: #bbb;
+            color: $fondo-body;
             font-size: 1.5em;
             margin-right: 7px;
             position: relative;
             top: 5px;
+        }
+        
+        .i-right {
+            margin-right: 0;
+            margin-left: 7px;
         }
         
         .barra {
@@ -441,7 +548,7 @@ footer {
         }
     }
     
-    input, textarea {
+    input, select, textarea {
         width: 100%;
         padding: 7px;
         font-size: 1.2em;
@@ -460,41 +567,11 @@ footer {
     }
 }
 
-.asesores {
-    margin: 15px 0;
-    padding: 15px 0;
-    display: flex;
-    align-items: center;
+#mapa {
+    width: 100%;
     
-    .asesor-pic {
-        width: 30%;
-        
-        img {
-            width: 100%;
-            display: block;
-            border-radius: 50%;
-            box-shadow: 2px 2px 3px 3px #ccc;
-        }
-    }
-    
-    .asesor-dato {
-        width: 70%;
-        padding-left: 15px;
-        
-        p {
-            margin-bottom: 0;
-            line-height: 1.5;
-        }
-        
-        .cargo {
-            font-size: 2em;
-            font-weight: 700;
-            color: $azul-footer;
-        }
-        
-        .datos {
-            font-size: 1.4em;
-        }
+    iframe {
+        width: 100%;
     }
 }
 

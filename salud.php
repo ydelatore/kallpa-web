@@ -14,14 +14,6 @@
     </head>
     
     <body>
-        <div id="fb-root"></div>
-        <script>(function(d, s, id) {
-          var js, fjs = d.getElementsByTagName(s)[0];
-          if (d.getElementById(id)) return;
-          js = d.createElement(s); js.id = id;
-          js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.9";
-          fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));</script>
        
         <?php include 'inc/_header.php'; ?>
         
@@ -29,47 +21,95 @@
             <h2 class="titulo-informativo lt-100">Seguro de Salud</h2>
         
             
-            <article class="caja-informativo lt-100" id="info1">
-              
-               <img src="img/ambulancia%20copia.png">
-               
-                <p>•	Seguro Salud
-                o	Protege cualquier perjuicio económico a consecuencia de una enfermedad
-                o	Acceso a tratamientos médicos especializados
-                o	Amplia Red de clínicas a nivel nacional
-                o	Cómodas opciones pensando en la economía del cliente
-                o	Emergencia accidental y medica al 100%
-                o	Coberturas de gastos ambulatorios y hospitalarios
-            </p>
+            <article class="contenedor lt-100" id="seguro-salud">
+                <div class="grafica lt-50">
+                    <img src="img/ambulancia.png" alt="Seguro Salud">
+                </div>
+
+                <div class="descripcion lt-50">
+                    <h3 class="titulo-informativos">Seguro Salud</h3>
+
+                    <ul>
+                        <li>Protege cualquier perjuicio económico a consecuencia de una enfermedad</li>
+                        <li>Acceso a tratamientos médicos especializados</li>
+                        <li>Amplia Red de clínicas a nivel nacional</li>
+                        <li>Cómodas opciones pensando en la economía del cliente</li>
+                        <li>Emergencia accidental y medica al 100%</li>
+                        <li>Coberturas de gastos ambulatorios y hospitalarios</li>
+                    </ul>
+                    
+                    <div class="iconos contenedor">
+                        <a href="#"><div class="escribeno ph-50"><i class="icon icon-mail"></i></div></a>
+                        <a href="#"><div class="llamanos ph-50"><i class="icon icon-phone"></i></div></a>
+                    </div>
+                </div>
+            </article>
             
-                <img src="img/enfermeria%20copia.png"
-              
-                <p>•    Seguro Accidentes Personales
-                o	Protección integral contra accidentes al 100%
-                o	Coberturas de Muerte Accidental, Invalidez total y permanente
-                o	Cobertura para cónyuges e hijos
-                o	Indemnización diaria por hospitalización
-            </p>
+            <article class="contenedor lt-100" id="accidentes-personales">
+                <div class="grafica lt-50">
+                    <img src="img/enfermeria.png" alt="Seguro de Accidentes Personales">
+                </div>
+
+                <div class="descripcion lt-50">
+                    <h3 class="titulo-informativos">Seguro Accidentes Personales</h3>
+
+                    <ul>
+                        <li>Protección integral contra accidentes al 100%</li>
+                        <li>Coberturas de Muerte Accidental, Invalidez total y permanente</li>
+                        <li>Cobertura para cónyuges e hijos</li>
+                        <li>Indemnización diaria por hospitalización</li>
+                    </ul>
+                    
+                    <div class="iconos contenedor">
+                        <a href="#"><div class="escribeno ph-50"><i class="icon icon-mail"></i></div></a>
+                        <a href="#"><div class="llamanos ph-50"><i class="icon icon-phone"></i></div></a>
+                    </div>
+                </div>
+            </article>
             
-            <img src="img/oncologico.png"
-              
-                <p>•    Seguro Oncológico
-                o	Cobertura al 100%
-                o	Tratamiento de Terapia Biológica, Quimioterapia, Radioterapia
-                o	Reconstrucción mamaria y de pezón para pacientes con mastectomía radical y cáncer de mama
-                o	Despistaje oncológico anual gratuito
-                o	Más de 30 clínicas y centros oncológicos especializados
-            </p>
+            <article class="contenedor lt-100" id="seguro-oncologico">
+                <div class="grafica lt-50">
+                    <img src="img/oncologico.png" alt="Seguro Oncológico">
+                </div>
+
+                <div class="descripcion lt-50">
+                    <h3 class="titulo-informativos">Seguro Oncológico</h3>
+
+                    <ul>
+                        <li>Cobertura al 100%</li>
+                        <li>Tratamiento de Terapia Biológica, Quimioterapia, Radioterapia</li>
+                        <li>Reconstrucción mamaria y de pezón para pacientes con mastectomía radical y cáncer de mama</li>
+                        <li>Despistaje oncológico anual gratuito</li>
+                        <li>Más de 30 clínicas y centros oncológicos especializados</li>
+                    </ul>
+                    
+                    <div class="iconos contenedor">
+                        <a href="#"><div class="escribeno ph-50"><i class="icon icon-mail"></i></div></a>
+                        <a href="#"><div class="llamanos ph-50"><i class="icon icon-phone"></i></div></a>
+                    </div>
+                </div>
+            </article>
             
-                        <img src="img/SCTR.png"
-              
-                <p>•    SCTR – Seguro Complementario de Trabajo de Riesgo
-                o	Atención médica, farmacológica, hospitalaria y quirúrgica
-                o	Cobertura total en caso de accidentes laborales
-                o	Prevención en Salud y Seguridad Ocupacional
-                o	Cobertura de Invalidez, Sobrevivencia y Gastos de Sepelio
-            </p>
-            
+            <article class="contenedor lt-100" id="sctr">
+                <div class="grafica lt-50">
+                    <img src="img/sctr.png" alt="Seguro Oncológico">
+                </div>
+
+                <div class="descripcion lt-50">
+                    <h3 class="titulo-informativos">SCTR – Seguro Complementario de Trabajo de Riesgo</h3>
+
+                    <ul>
+                        <li>Atención médica, farmacológica, hospitalaria y quirúrgica</li>
+                        <li>Cobertura total en caso de accidentes laborales</li>
+                        <li>Prevención en Salud y Seguridad Ocupacional</li>
+                        <li>Cobertura de Invalidez, Sobrevivencia y Gastos de Sepelio</li>
+                    </ul>
+                    
+                    <div class="iconos contenedor">
+                        <a href="#"><div class="escribeno ph-50"><i class="icon icon-mail"></i></div></a>
+                        <a href="#"><div class="llamanos ph-50"><i class="icon icon-phone"></i></div></a>
+                    </div>
+                </div>
             </article>
         </section>
         

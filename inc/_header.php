@@ -1,17 +1,19 @@
         <header>
-            <div class="contenedor" id="cont-menu">
-                <p id="fecha"></p>
-               
-                <nav>
-                    <ul class="menu">
-                        <li><a href="index.php">Inicio</a></li>
-                        <li><a href="salud.php">Salud</a></li>
-                        <li><a href="vida.php">Vida</a></li>
-                        <li><a href="patrimonio.php">Patrimonio</a></li>
-                        <li><a href="nosotros.php">Nosotros</a></li>
-                        <li><a href="contacto.php">Contacto</a></li>
-                    </ul>
-                </nav>
+            <div id="barramenu-gris">
+                <div class="contenedor" id="cont-menu">
+                    <p id="fecha"></p>
+
+                    <nav>
+                        <ul class="menu">
+                            <li><a href="index.php">Inicio</a></li>
+                            <li><a href="salud.php">Salud</a></li>
+                            <li><a href="vida.php">Vida</a></li>
+                            <li><a href="patrimonio.php">Patrimonio</a></li>
+                            <li><a href="nosotros.php">Nosotros</a></li>
+                            <li><a href="contacto.php">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
             
             <div class="banner">

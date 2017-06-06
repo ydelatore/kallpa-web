@@ -30,15 +30,28 @@
             
             <form id="form-contacto" action="" method="post">
                 <div id="inputs">
-                    <input type="text" name="nombre" placeholder="Nombre y Apellido">
+                    <input type="text" name="nombre" placeholder="Nombre y Apellido (Obligatorio)">
                     <input type="text" name="empresa" placeholder="Emoresa">
-                    <input type="text" name="cargo" placeholder="Cargo">
+                    <select name="asunto" id="asunto">
+                        <option value="">-- Elije Asunto --</option>
+                        <option value="">Seguro Vida</option>
+                        <option value="">Seguro Accidental</option>
+                        <option value="">Seguro Académico</option>
+                        <option value="">Seguro Vehicular</option>
+                        <option value="">Seguro Salud</option>
+                        <option value="">Seguro Oncológico</option>
+                        <option value="">SCTR</option>
+                        <option value="">Seguro Incendio y lineas aliadas</option>
+                        <option value="">Seguro Responsabilidad Civil</option>
+                        <option value="">Seguro de Transporte </option>
+                        <option value="">Ramos Técnicos (Seguro CAR - EAR - TREC - RM - TREE)</option>
+                    </select>
                     <input type="tel" name="telefono" placeholder="Teléfono">
-                    <input type="email" name="email" placeholder="E-mail">
+                    <input type="email" name="email" placeholder="E-mail (Obligatorio)">
                 </div>
 
                 <div id="textarea">
-                    <textarea name="mensaje" placeholder="Mensaje"></textarea>
+                    <textarea name="mensaje" placeholder="Mensaje (Obligatorio)"></textarea>
                 </div>
 
                 <div id="boton">
@@ -48,76 +61,10 @@
         </section>
         
         <section class="contenedor">
-            <h2 class="titulo-informativo lt-100">Atención al cliente</h2>
+            <h2 class="titulo-informativo lt-100">Ubíquenos</h2>
             
-            <div class="fila">
-                <div class="asesores tb-1-3">
-                    <div class="asesor-pic"><img src="img/katerin.jpg" alt="Katerin"></div>
-
-                    <div class="asesor-dato">
-                        <p class="cargo">Atención al cliente</p>
-                        <p class="datos">Katerin Torres</p>
-                        <p class="datos">999 999 999</p>
-                        <p class="datos">ktorres@kallpacorredoresdeseguros.pe</p>
-                    </div>
-                </div>
-
-                <div class="asesores tb-1-3">
-                    <div class="asesor-pic"><img src="img/katerin.jpg" alt="Katerin"></div>
-
-                    <div class="asesor-dato">
-                        <p class="cargo">Asesor comercial</p>
-                        <p class="datos">Katerin Torres</p>
-                        <p class="datos">999 999 999</p>
-                        <p class="datos">ktorres@kallpacorredoresdeseguros.pe</p>
-                    </div>
-                </div>
-
-                <div class="asesores tb-1-3">
-                    <div class="asesor-pic"><img src="img/katerin.jpg" alt="Katerin"></div>
-
-                    <div class="asesor-dato">
-                        <p class="cargo">Servicio postventa</p>
-                        <p class="datos">Katerin Torres</p>
-                        <p class="datos">999 999 999</p>
-                        <p class="datos">ktorres@kallpacorredoresdeseguros.pe</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="fila">
-                <div class="asesores tb-1-3">
-                    <div class="asesor-pic"><img src="img/katerin.jpg" alt="Katerin"></div>
-
-                    <div class="asesor-dato">
-                        <p class="cargo">Seguros generales</p>
-                        <p class="datos">Katerin Torres</p>
-                        <p class="datos">999 999 999</p>
-                        <p class="datos">ktorres@kallpacorredoresdeseguros.pe</p>
-                    </div>
-                </div>
-
-                <div class="asesores tb-1-3">
-                    <div class="asesor-pic"><img src="img/katerin.jpg" alt="Katerin"></div>
-
-                    <div class="asesor-dato">
-                        <p class="cargo">Seguro vehicular</p>
-                        <p class="datos">Katerin Torres</p>
-                        <p class="datos">999 999 999</p>
-                        <p class="datos">ktorres@kallpacorredoresdeseguros.pe</p>
-                    </div>
-                </div>
-
-                <div class="asesores tb-1-3">
-                    <div class="asesor-pic"><img src="img/katerin.jpg" alt="Katerin"></div>
-
-                    <div class="asesor-dato">
-                        <p class="cargo">Central teléfonica</p>
-                        <p class="datos">Katerin Torres</p>
-                        <p class="datos">999 999 999</p>
-                        <p class="datos">ktorres@kallpacorredoresdeseguros.pe</p>
-                    </div>
-                </div>
+            <div id="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.45446663541!2d-77.01434418518708!3d-12.081008991444493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c881b876539f%3A0xea0576fb277b8fd5!2sKallpa+Corredores+de+Seguros!5e0!3m2!1sen!2s!4v1496706235709" width="1200" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </section>
         
